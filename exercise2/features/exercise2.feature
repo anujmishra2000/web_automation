@@ -5,7 +5,7 @@ Feature: Play song
     Then Submit the query
 
   Scenario: Open YouTube Music and search a song
-    Given Click on website with 'YouTube ' keyword
+    Given Click on website with 'YouTube Music' keyword
     When Click on search button on website
     Then We type "Despacito" song on website and search for results
 
